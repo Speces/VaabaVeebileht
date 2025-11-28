@@ -67,3 +67,29 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
+/* New code */
+
+.background_image {
+    background-image: url("https://m.media-amazon.com/images/I/71dbpZQe1eL._SX679_PIbundle-18,TopRight,0,0_AA679SH20_.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+.introduction {
+    display: flex;
+
+    height: 550px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0077ccd0;
+
+}
+
+.introduction_text {
+    color: white;
+    font-size: 24px;
+    max-width: 800px;
+}
