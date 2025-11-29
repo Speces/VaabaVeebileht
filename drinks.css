@@ -3,11 +3,17 @@ body {
 }
 
 .content {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
-.red {
-    background-color: #9f0700;
+.red_gradient {
+    background: #9F0700;
+background: linear-gradient(180deg, rgba(159, 7, 0, 1) 0%, rgba(159, 7, 0, 1) 40%, rgba(105, 5, 0, 1) 90%, rgba(97, 5, 0, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.red_dark {
+    background-color:  rgba(97, 5, 0, 1);
 }
 
 .orange {
