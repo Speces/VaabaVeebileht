@@ -64,6 +64,8 @@ body {
 
     justify-content: center;
     align-items: center;
+
+    user-select: none;
 }
 
 .info_image img {
@@ -102,7 +104,13 @@ body {
     border-radius: 20px;
 
     overflow: hidden;
- 
+    
+    transition: transform 0.1s;
+}
+
+.drink_item:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
 }
 
 .drink_item img {

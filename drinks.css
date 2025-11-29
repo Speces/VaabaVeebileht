@@ -123,6 +123,7 @@ img {
 
     height: 300px;
 
+    transition: transform 0.1s;
 }
 
 .other_drinks .drink a {
@@ -137,8 +138,17 @@ img {
     overflow: hidden;
 }
 
+.drink:hover {
+    transform: translateX(40px) scale(1.1);
+    transition: transform 0.2s;
+
+}
+
 .first_drink {
     transform: translateX(40px);
+
+    position: relative;
+    z-index: 1;
 }
 
 .other_drinks img {
