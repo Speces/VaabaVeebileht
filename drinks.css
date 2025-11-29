@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.content {
+    margin-bottom: 60px;
+}
+
 .red {
     background-color: #9f0700;
 }
@@ -118,4 +122,51 @@ img {
 .other_drinks img {
     width: 300px;
     height: auto;
+}
+
+
+.info {
+    margin-top: 50px;
+
+    justify-self: center;
+
+    width: 80vw;
+    max-width: 2000px;
+}
+
+.back_home {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 50px;
+}
+
+.back_home a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.description_text {
+    margin-left: 20px;
+
+    color: white;
+}
+
+.drink_name {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description_title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.description_paragraph {
+    font-size: 24px;
+    line-height: 1.5;
 }
