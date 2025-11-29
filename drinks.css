@@ -84,13 +84,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    /*background-color: yellow;*/
-
-    img {
-        height: 100%;
-        width: auto;
-    }
+.selected_drink img {
+    height: 100%;
+    width: auto;
 }
 
 .other {
@@ -159,22 +157,31 @@ img {
 }
 
 .back_home {
-    display: flex;
-    justify-content: flex-end;
+    margin-right: 80px;
 
-    margin-right: 50px;
+    transition: transform 0.1s;
 }
 
-.back_home a {
-    text-decoration: none;
+.back_home:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
 
-    color: white;
+.back_home a img {
+    width: 200px;
+    height: auto;
 }
 
 .description_block {
     margin-left: 20px;
 
     color: white;
+}
+
+.description_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .drink_name {
