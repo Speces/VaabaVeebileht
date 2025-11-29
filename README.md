@@ -1,3 +1,3 @@
 # VaabaSjeRyhmaprojekt
 
-veebilehel on lühitutvustus enim teadatuntud karastusjookidest: Coca-Cola, Fanta ja Sprite.
+The website features a short introduction to the most well-known soft drinks: Coca-Cola, Fanta and Sprite.
