@@ -67,8 +67,14 @@ img {
     height: 40px;
 
     margin: 0 10px;
+    cursor: pointer;
 
-    background-color: violet;
+    transition: transform 0.1s;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
 }
 
 .selected_drink {
