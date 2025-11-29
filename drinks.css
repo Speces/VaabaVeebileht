@@ -1,7 +1,17 @@
 body {
     margin: 0;
+}
 
-    background-color: /*blue*/ #9f0700;
+.red {
+    background-color: #9f0700;
+}
+
+.orange {
+    background-color: #cb6010;
+}
+
+.green {
+    background-color: #114f31;
 }
 
 img {
@@ -16,7 +26,8 @@ img {
 
     height: 700px;
 
-    background-color: #9f0700;
+    user-select: none;
+
 }
 
 .drinks {
@@ -25,10 +36,8 @@ img {
     height: 100%;
     width: fit-content;
 
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
-    /*background-color: orange;*/
 }
 
 .arrow {
@@ -72,7 +81,7 @@ img {
 .slogan {
     font-size: 100px;
     color: white;
-
+    font-family: "Roca Two", serif;
 }
 
 .other_drinks {
@@ -87,6 +96,7 @@ img {
     align-items: center;
 
     height: 300px;
+
 }
 
 .other_drinks .drink a {
