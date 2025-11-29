@@ -165,16 +165,21 @@ img {
     color: white;
 }
 
-.description_text {
+.description_block {
     margin-left: 20px;
 
     color: white;
 }
 
 .drink_name {
+    margin-bottom: 30px;
+
     font-size: 100px;
     font-weight: bold;
-    margin-bottom: 10px;
+}
+
+.description_text {
+    margin-left: 20px;
 }
 
 .description_title {
