@@ -8,7 +8,7 @@ body {
 
 .red_gradient {
     background: #9F0700;
-background: linear-gradient(180deg, rgba(159, 7, 0, 1) 0%, rgba(159, 7, 0, 1) 40%, rgba(105, 5, 0, 1) 90%, rgba(97, 5, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(159, 7, 0, 1) 0%, rgba(159, 7, 0, 1) 40%, rgba(105, 5, 0, 1) 90%, rgba(97, 5, 0, 1) 100%);
     background-repeat: no-repeat;
 }
 
@@ -16,12 +16,24 @@ background: linear-gradient(180deg, rgba(159, 7, 0, 1) 0%, rgba(159, 7, 0, 1) 40
     background-color:  rgba(97, 5, 0, 1);
 }
 
-.orange {
-    background-color: #cb6010;
+.orange_gradient {
+    background: #CB6010;
+    background: linear-gradient(180deg, rgba(203, 96, 16, 1) 0%, rgba(203, 96, 16, 1) 40%, rgba(153, 72, 12, 1) 90%, rgba(145, 69, 11, 1) 100%);
+    background-repeat: no-repeat;
 }
 
-.green {
-    background-color: #114f31;
+.orange_dark {
+    background-color: rgba(145, 69, 11, 1);
+}
+
+.green_gradient {
+    background: #114F31;
+    background: linear-gradient(180deg, rgba(17, 79, 49, 1) 0%, rgba(17, 79, 49, 1) 40%, rgba(12, 55, 34, 1) 90%, rgba(11, 51, 32, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.green_dark {
+    background-color: rgba(11, 51, 32, 1);
 }
 
 img {
