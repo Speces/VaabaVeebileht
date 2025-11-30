@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="en">
 <head>
     <title>Soft Drinks</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,15 +16,15 @@
         </div>
     </div>
     <div class="content">
+        <div id="theme-btn" class="theme_selector" onclick="toggleTheme(this)">Dark Mode</div>
         <div class="info">
             <div class="info_image">
                 <img src="./images/together.png" alt="soft drinks" draggable="false">
             </div>
             <div class="info_text">
                 <h2>Welcome to our world of soft drinks — where freshness, flavor and fizz come together.</h2>
-                <p>For decades, people have enjoyed simple moments made better with a cold drink in hand. Whether it’s the classic taste of Coca-Cola, the bright fruitiness of Fanta, or the crisp, lemon-lime sparkle of Sprite, each drink brings its own kind of refreshment.</p>
+                <p>For decades, people have enjoyed simple moments made better with a cold drink in hand. Whether it's the classic taste of Coca-Cola, the bright fruitiness of Fanta, or the crisp, lemon-lime sparkle of Sprite, each drink brings its own kind of refreshment.</p>
             </div>
-            
         </div>
         <div class="drink_list">
             <a href="./cola.html">
@@ -49,5 +49,25 @@
         </div>
     </div>
 
+    <script>
+        function applyTheme(theme){
+            document.documentElement.setAttribute('data-theme', theme);
+            document.body.classList.toggle('dark', theme === 'dark');
+            const btn = document.getElementById('theme-btn');
+            if (btn) btn.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
+        }
+
+        function toggleTheme(btn){
+            const current = document.documentElement.getAttribute('data-theme') || (document.body.classList.contains('dark') ? 'dark' : 'light');
+            const next = current === 'dark' ? 'light' : 'dark';
+            applyTheme(next);
+            localStorage.setItem('theme', next);
+        }
+
+        (function(){
+            const saved = localStorage.getItem('theme');
+            if (saved) applyTheme(saved);
+        })();
+    </script>
 </body>
 </html>
