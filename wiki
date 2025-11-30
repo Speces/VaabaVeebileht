@@ -1,7 +1,12 @@
-The website features a short introduction to the most well-known soft drinks: Coca-Cola, Fanta and Sprite.
+The website features a short introduction to the most well-known soft drinks: Coca-Cola, Fanta and Sprite. The purpose of this site is to educate and introduce a few facts about the most well-known soft drinks in the world.
 
+We decided to make a webpage for soft drinks because we have consumed a lot of the products and we really didn't know much about the beverages backstory.
 
 
 Team members: Fred Tinnuri, Arthur Lauk.
 
-Sidenote: Also we should have third member of the team but he hasn't showed up except for the first week and even then he didn't do much.
+Sidenote: Also we should have third member of the team but he hasn't showed up except for the first week and even then he didn't do much, soo he doesn't get any credit for the website.
+
+tasks: 
+Fred Tinnuri - more design, less coding
+Arthur Lauk - more coding, less design
