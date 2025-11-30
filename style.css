@@ -129,6 +129,8 @@ body {
     border-radius: 20px;
 
     overflow: hidden;
+
+    user-select: none;
     
     transition: transform 0.1s;
 }
@@ -160,6 +162,10 @@ body {
     border-top: 2px solid rgba(0, 0, 0, 0.6);
 
     background-color: rgb(180, 180, 180);
+}
+
+.item_more:hover {
+    background-color: rgb(190, 190, 190);
 }
 
 .coca-cola {

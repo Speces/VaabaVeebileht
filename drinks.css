@@ -170,6 +170,8 @@ img {
 .back_home {
     margin-right: 80px;
 
+    user-select: none;
+
     transition: transform 0.1s;
 }
 
