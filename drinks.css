@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    max-height: fit-content;
 }
 
 .content {
@@ -169,6 +168,8 @@ img {
 
 .back_home {
     margin-right: 80px;
+
+    user-select: none;
 
     transition: transform 0.1s;
 }
